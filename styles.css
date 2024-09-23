@@ -56,30 +56,53 @@ table {
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 1rem;
+}
+h1 {
+    font-size: 3em;
+    color: var(--teal);
+    font-weight: bold;
+    padding: 1rem;
 }
 
 p {
     font-size: 1.25em;
 }
 
-figcaption, label, input, small {
-    font-size: 1em;
+nav{
+    background-color: var(--black);
 }
 
 nav a {
     font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--white);
 }
 
-h1 {
-    font-size: 3em;
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem;
 }
 
 h2 {
     font-size: 2em;
+    font-weight: bold;
+}
+
+figcaption, label, input, small {
+    font-size: 1em;
 }
 
 
-/*-------------------- MEDIA QUERY (medium) --------------------------------*/
 
+
+/*-------------------- MEDIA QUERY (medium) --------------------------------*/
+@media screen and (min-width:880px) {
+
+}
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
+@media screen and (min-width:1330px) {
+    
+}
