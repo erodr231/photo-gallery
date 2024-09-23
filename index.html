@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>TK Photography</title>
-    <!--add back to top button-->
 </head>
 <body>
     <header>
@@ -16,6 +16,9 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+
+        <!--add back to top button-->
+        <a href="#" class="backtotop">Top</a>
     </header>
     
     <main>
@@ -39,7 +42,7 @@
 
                 <figure>
                     <img src="images/Guatemala.png" alt="landscape photo of Guatemala, taken in 1997">
-                    <figcaption>GUATEMALE, 1997</figcaption>
+                    <figcaption>GUATEMALA, 1997</figcaption>
                 </figure>
                 
                 <figure>
@@ -102,17 +105,17 @@
             <p>Please fill out this form and I'll connect with you soon.</p>
 
             <form>
-                <div>
+                <div class="form">
                     <label for="fname">NAME</label>
                     <input type="text" id="fname" name="fname" placeholder="YOUR FULL NAME">
                 </div>
 
-                <div>
+                <div class="form">
                     <label for="email">EMAIL</label>
                     <input type="text" id="email" name="email" placeholder="ENTER YOUR EMAIL ADDRESS">
                 </div>
 
-                <div>
+                <div class="form">
                     <label for="msg">MESSAGE</label>
                     <textarea id="msg" name="msg" placeholder="WHAT CAN I HELP YOU WITH?"></textarea>
                 </div>
