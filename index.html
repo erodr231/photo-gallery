@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TK Photography</title>
+    <!--add back to top button-->
 </head>
 <body>
     <header>
@@ -12,7 +13,7 @@
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact"></a>Contact</li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -100,7 +101,7 @@
             <h2>CONTACT</h2>
             <p>Please fill out this form and I'll connect with you soon.</p>
 
-            <form action=action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+            <form>
                 <div>
                     <label for="fname">NAME</label>
                     <input type="text" id="fname" name="fname" placeholder="YOUR FULL NAME">
@@ -113,7 +114,7 @@
 
                 <div>
                     <label for="msg">MESSAGE</label>
-                    <input type="text" id="msg" name="msg" placeholder="WHAT CAN I HELP YOU WITH?">
+                    <textarea id="msg" name="msg" placeholder="WHAT CAN I HELP YOU WITH?"></textarea>
                 </div>
 
                 <input type="submit">
