@@ -54,9 +54,15 @@ table {
     --white: #ffffff;
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+html, footer{
+    background-color: var(--black);
+}
+
 body{
+    background-color: var(--white);
     font-family: Arial, Helvetica, sans-serif;
 }
+
 h1 {
     font-size: 3em;
     color: var(--teal);
@@ -86,16 +92,36 @@ nav ul{
     padding: 1.5rem;
 }
 
+main{
+    margin: .5rem;
+}
+
 h2 {
     font-size: 2em;
     font-weight: bold;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+/*last p in contact section id*/ {
+    margin-bottom: 1rem;
 }
 
 figcaption, label, input, small {
     font-size: 1em;
 }
 
+footer{
+    padding: 1rem;
+}
 
+#contact, p{
+    color: var(--white);
+}
+
+#contact h2{
+    padding: 1rem;
+}
 
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
