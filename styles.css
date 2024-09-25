@@ -145,6 +145,11 @@ h2 {
     text-align: center;
 }
 
+
+figcaption, label, input, small {
+    font-size: 1em;
+}
+
 figcaption{
     top: -20px;
     position: relative;
@@ -152,10 +157,30 @@ figcaption{
     z-index: 1;
 }
 
-figcaption, label, input, small {
-    font-size: 1em;
+
+.white{
+    color: var(--white);
 }
 
+.black{
+    color: var(--black);
+}
+
+figcaption.top{
+    top:-275px;
+}
+
+figcaption.bottom{
+    top:-25px;
+}
+
+figcaption.top.big{ /*iran, ireland*/
+    top: -625px;
+}
+
+figcaption.bottom.big{ /*italy*/
+    top: -25px;
+}
 
 footer{
     padding: .5rem;
@@ -201,9 +226,11 @@ button{
     border-radius: 1rem;
     width: 50%;
     padding: .5rem;
-    margin: 1rem 0 1rem 6rem;
+    margin: 1rem;
 }
-
+#submit-button{
+    text-align: center;
+}
 ::placeholder{
     color: var(--teal);
     font-family: Arial, Helvetica, sans-serif;
@@ -217,9 +244,23 @@ footer > p{
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width:880px) {
-
+    nav ul{
+        justify-content: center;
+    }
+    .images{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (min-width:1330px) {
-    
+    nav ul{
+        justify-content: right;
+    }
+
+    .images{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
 }
