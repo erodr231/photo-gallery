@@ -110,6 +110,10 @@ nav ul{
     padding: .5rem;
 }
 
+#backtotop:hover{
+    color: var(--teal);
+}
+
 main{
     margin: .5rem;
 }
@@ -185,6 +189,7 @@ form {
 }
 
 textarea{
+    font-size: 15px;
     width: 100%;
     padding: .5rem;
 }
